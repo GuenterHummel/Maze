@@ -38,5 +38,4 @@ Thumbs.db
 
 # JETBRAINS IDE files #
 ######################
-workspace.xml
-
+.idea/workspace.xml
