@@ -39,3 +39,5 @@ Thumbs.db
 # JETBRAINS IDE files #
 ######################
 .idea/workspace.xml
+/coverage/
+coverage/
