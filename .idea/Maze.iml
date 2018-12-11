@@ -4,7 +4,7 @@
     <shared>
       <configuration default="false" name="binary_tree_demo" type="RubyRunConfigurationType" factoryName="Ruby">
         <module name="Maze" />
-        <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift) -I." />
+        <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE=" -I." />
         <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
         <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
         <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
@@ -18,13 +18,15 @@
         </EXTENSION>
         <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/binary_tree_demo.rb" />
         <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-        <method />
+        <method v="2" />
       </configuration>
     </shared>
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="ruby-2.5.1-p57" jdkType="RUBY_SDK" />
+    <orderEntry type="jdk" jdkName="ruby-2.5.3-p105" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="chunky_png (v1.3.11, ruby-2.5.3-p105) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="distances (v0.0.1, ruby-2.5.3-p105) [gem]" level="application" />
   </component>
 </module>
