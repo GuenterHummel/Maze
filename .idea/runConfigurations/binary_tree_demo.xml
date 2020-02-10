@@ -1,10 +1,10 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="binary_tree_demo" type="RubyRunConfigurationType" factoryName="Ruby">
     <module name="Maze" />
-    <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-I." />
+    <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE=" -I." />
     <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-    <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="true" />
-    <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="ruby-2.5.3-p105" />
+    <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+    <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
     <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
     <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
     <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
@@ -15,8 +15,6 @@
     </EXTENSION>
     <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/binary_tree_demo.rb" />
     <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-    <method v="2">
-      <option name="Make" enabled="true" />
-    </method>
+    <method v="2" />
   </configuration>
 </component>
