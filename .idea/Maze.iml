@@ -29,5 +29,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="chunky_png (v1.4.0, ruby-3.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="distances (v0.0.1, ruby-3.0.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rbs (v1.0.0, ruby-3.0.0-p0) [gem]" level="application" />
   </component>
 </module>
