@@ -25,9 +25,7 @@
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="ruby-3.0.3-p157" jdkType="RUBY_SDK" />
+    <orderEntry type="jdk" jdkName="Remote: ruby-3.2.3-p157" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="chunky_png (v1.4.0, ruby-3.0.3-p157) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="distances (v0.0.1, ruby-3.0.3-p157) [gem]" level="application" />
   </component>
 </module>
