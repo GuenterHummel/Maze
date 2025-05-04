@@ -1,0 +1,75 @@
+Index: .idea/runConfigurations/binary_tree_demo.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"ProjectRunConfigurationManager\">\n  <configuration default=\"false\" name=\"binary_tree_demo\" type=\"RubyRunConfigurationType\" factoryName=\"Ruby\">\n    <module name=\"Maze\" />\n    <RUBY_RUN_CONFIG NAME=\"RUBY_ARGS\" VALUE=\"-I.\" />\n    <RUBY_RUN_CONFIG NAME=\"WORK DIR\" VALUE=\"$MODULE_DIR$\" />\n    <RUBY_RUN_CONFIG NAME=\"SHOULD_USE_SDK\" VALUE=\"false\" />\n    <RUBY_RUN_CONFIG NAME=\"ALTERN_SDK_NAME\" VALUE=\"\" />\n    <RUBY_RUN_CONFIG NAME=\"myPassParentEnvs\" VALUE=\"true\" />\n    <EXTENSION ID=\"BundlerRunConfigurationExtension\" BUNDLE_MODE=\"DISABLE\" bundleExecEnabled=\"false\" />\n    <EXTENSION ID=\"JRubyRunConfigurationExtension\" NailgunExecEnabled=\"false\" />\n    <EXTENSION ID=\"RubyCoverageRunConfigurationExtension\" track_test_folders=\"true\" runner=\"rcov\" ENABLE_FORKED_COVERAGE=\"true\">\n      <COVERAGE_PATTERN ENABLED=\"true\">\n        <PATTERN REGEXPS=\"/.rvm/\" INCLUDED=\"false\" />\n      </COVERAGE_PATTERN>\n    </EXTENSION>\n    <EXTENSION ID=\"org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension\" SCRATCH_USE_RAILS_RUNNER=\"false\" />\n    <RUBY_RUN_CONFIG NAME=\"SCRIPT_PATH\" VALUE=\"$MODULE_DIR$/binary_tree_demo.rb\" />\n    <RUBY_RUN_CONFIG NAME=\"SCRIPT_ARGS\" VALUE=\"\" />\n    <method v=\"2\" />\n  </configuration>\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/runConfigurations/binary_tree_demo.xml b/.idea/runConfigurations/binary_tree_demo.xml
+--- a/.idea/runConfigurations/binary_tree_demo.xml	(revision 39f6adcae068d6302a800a1b179a87b18e3a5bfd)
++++ b/.idea/runConfigurations/binary_tree_demo.xml	(date 1668633902581)
+@@ -8,11 +8,7 @@
+     <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+     <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="DISABLE" bundleExecEnabled="false" />
+     <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+-    <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_FORKED_COVERAGE="true">
+-      <COVERAGE_PATTERN ENABLED="true">
+-        <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+-      </COVERAGE_PATTERN>
+-    </EXTENSION>
++    <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
+     <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+     <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/binary_tree_demo.rb" />
+     <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"false\" project-jdk-name=\"ruby-2.5.3-p105\" project-jdk-type=\"RUBY_SDK\" />\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 39f6adcae068d6302a800a1b179a87b18e3a5bfd)
++++ b/.idea/misc.xml	(date 1678474606597)
+@@ -1,4 +1,4 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="ruby-2.5.3-p105" project-jdk-type="RUBY_SDK" />
++  <component name="ProjectRootManager" version="2" project-jdk-name="ruby-2.5.3-p105" project-jdk-type="RUBY_SDK" />
+ </project>
+\ No newline at end of file
+Index: .idea/Maze.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<module type=\"RUBY_MODULE\" version=\"4\">\n  <component name=\"ModuleRunConfigurationManager\">\n    <shared>\n      <configuration default=\"false\" name=\"binary_tree_demo\" type=\"RubyRunConfigurationType\" factoryName=\"Ruby\">\n        <module name=\"Maze\" />\n        <RUBY_RUN_CONFIG NAME=\"RUBY_ARGS\" VALUE=\"-I.\" />\n        <RUBY_RUN_CONFIG NAME=\"WORK DIR\" VALUE=\"$MODULE_DIR$\" />\n        <RUBY_RUN_CONFIG NAME=\"SHOULD_USE_SDK\" VALUE=\"false\" />\n        <RUBY_RUN_CONFIG NAME=\"ALTERN_SDK_NAME\" VALUE=\"\" />\n        <RUBY_RUN_CONFIG NAME=\"myPassParentEnvs\" VALUE=\"true\" />\n        <EXTENSION ID=\"BundlerRunConfigurationExtension\" BUNDLE_MODE=\"DISABLE\" bundleExecEnabled=\"false\" />\n        <EXTENSION ID=\"JRubyRunConfigurationExtension\" NailgunExecEnabled=\"false\" />\n        <EXTENSION ID=\"RubyCoverageRunConfigurationExtension\" track_test_folders=\"true\" runner=\"rcov\" ENABLE_FORKED_COVERAGE=\"true\">\n          <COVERAGE_PATTERN ENABLED=\"true\">\n            <PATTERN REGEXPS=\"/.rvm/\" INCLUDED=\"false\" />\n          </COVERAGE_PATTERN>\n        </EXTENSION>\n        <EXTENSION ID=\"org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension\" SCRATCH_USE_RAILS_RUNNER=\"false\" />\n        <RUBY_RUN_CONFIG NAME=\"SCRIPT_PATH\" VALUE=\"$MODULE_DIR$/binary_tree_demo.rb\" />\n        <RUBY_RUN_CONFIG NAME=\"SCRIPT_ARGS\" VALUE=\"\" />\n        <method v=\"2\" />\n      </configuration>\n    </shared>\n  </component>\n  <component name=\"NewModuleRootManager\">\n    <content url=\"file://$MODULE_DIR$\" />\n    <orderEntry type=\"jdk\" jdkName=\"ruby-3.0.3-p157\" jdkType=\"RUBY_SDK\" />\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\n    <orderEntry type=\"library\" scope=\"PROVIDED\" name=\"chunky_png (v1.4.0, ruby-3.0.3-p157) [gem]\" level=\"application\" />\n    <orderEntry type=\"library\" scope=\"PROVIDED\" name=\"distances (v0.0.1, ruby-3.0.3-p157) [gem]\" level=\"application\" />\n  </component>\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/Maze.iml b/.idea/Maze.iml
+--- a/.idea/Maze.iml	(revision 39f6adcae068d6302a800a1b179a87b18e3a5bfd)
++++ b/.idea/Maze.iml	(date 1668633902617)
+@@ -11,11 +11,7 @@
+         <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+         <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="DISABLE" bundleExecEnabled="false" />
+         <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+-        <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_FORKED_COVERAGE="true">
+-          <COVERAGE_PATTERN ENABLED="true">
+-            <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+-          </COVERAGE_PATTERN>
+-        </EXTENSION>
++        <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
+         <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+         <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/binary_tree_demo.rb" />
+         <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+@@ -25,9 +21,7 @@
+   </component>
+   <component name="NewModuleRootManager">
+     <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="jdk" jdkName="ruby-3.0.3-p157" jdkType="RUBY_SDK" />
++    <orderEntry type="jdk" jdkName="ruby-3.1.2-p20" jdkType="RUBY_SDK" />
+     <orderEntry type="sourceFolder" forTests="false" />
+-    <orderEntry type="library" scope="PROVIDED" name="chunky_png (v1.4.0, ruby-3.0.3-p157) [gem]" level="application" />
+-    <orderEntry type="library" scope="PROVIDED" name="distances (v0.0.1, ruby-3.0.3-p157) [gem]" level="application" />
+   </component>
+ </module>
+\ No newline at end of file
